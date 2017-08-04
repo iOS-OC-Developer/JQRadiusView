@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CECD0D1F341FE400B2B1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD0C1F341FE400B2B1B1 /* main.m */; };
+		47CECD101F341FE400B2B1B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD0F1F341FE400B2B1B1 /* AppDelegate.m */; };
+		47CECD131F341FE400B2B1B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD121F341FE400B2B1B1 /* ViewController.m */; };
+		47CECD161F341FE400B2B1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CECD141F341FE400B2B1B1 /* Main.storyboard */; };
+		47CECD181F341FE400B2B1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CECD171F341FE400B2B1B1 /* Assets.xcassets */; };
+		47CECD1B1F341FE400B2B1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CECD191F341FE400B2B1B1 /* LaunchScreen.storyboard */; };
+		47CECD261F341FE400B2B1B1 /* JQRadiusViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD251F341FE400B2B1B1 /* JQRadiusViewTests.m */; };
+		47CECD311F341FE400B2B1B1 /* JQRadiusViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD301F341FE400B2B1B1 /* JQRadiusViewUITests.m */; };
+		47CECD411F34201000B2B1B1 /* JQRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CECD401F34201000B2B1B1 /* JQRadiusView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47CECD221F341FE400B2B1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CECD001F341FE400B2B1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CECD071F341FE400B2B1B1;
+			remoteInfo = JQRadiusView;
+		};
+		47CECD2D1F341FE400B2B1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CECD001F341FE400B2B1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CECD071F341FE400B2B1B1;
+			remoteInfo = JQRadiusView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47CECD081F341FE400B2B1B1 /* JQRadiusView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQRadiusView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CECD0C1F341FE400B2B1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47CECD0E1F341FE400B2B1B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47CECD0F1F341FE400B2B1B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47CECD111F341FE400B2B1B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47CECD121F341FE400B2B1B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47CECD151F341FE400B2B1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47CECD171F341FE400B2B1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47CECD1A1F341FE400B2B1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47CECD1C1F341FE400B2B1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CECD211F341FE400B2B1B1 /* JQRadiusViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQRadiusViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CECD251F341FE400B2B1B1 /* JQRadiusViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQRadiusViewTests.m; sourceTree = "<group>"; };
+		47CECD271F341FE400B2B1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CECD2C1F341FE400B2B1B1 /* JQRadiusViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQRadiusViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CECD301F341FE400B2B1B1 /* JQRadiusViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQRadiusViewUITests.m; sourceTree = "<group>"; };
+		47CECD321F341FE400B2B1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CECD3F1F34201000B2B1B1 /* JQRadiusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQRadiusView.h; sourceTree = "<group>"; };
+		47CECD401F34201000B2B1B1 /* JQRadiusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQRadiusView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CECD051F341FE400B2B1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD1E1F341FE400B2B1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD291F341FE400B2B1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CECCFF1F341FE400B2B1B1 = {
+			isa = PBXGroup;
+			children = (
+				47CECD0A1F341FE400B2B1B1 /* JQRadiusView */,
+				47CECD241F341FE400B2B1B1 /* JQRadiusViewTests */,
+				47CECD2F1F341FE400B2B1B1 /* JQRadiusViewUITests */,
+				47CECD091F341FE400B2B1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CECD091F341FE400B2B1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD081F341FE400B2B1B1 /* JQRadiusView.app */,
+				47CECD211F341FE400B2B1B1 /* JQRadiusViewTests.xctest */,
+				47CECD2C1F341FE400B2B1B1 /* JQRadiusViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CECD0A1F341FE400B2B1B1 /* JQRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD3E1F34201000B2B1B1 /* JQRadiusView */,
+				47CECD0E1F341FE400B2B1B1 /* AppDelegate.h */,
+				47CECD0F1F341FE400B2B1B1 /* AppDelegate.m */,
+				47CECD111F341FE400B2B1B1 /* ViewController.h */,
+				47CECD121F341FE400B2B1B1 /* ViewController.m */,
+				47CECD141F341FE400B2B1B1 /* Main.storyboard */,
+				47CECD171F341FE400B2B1B1 /* Assets.xcassets */,
+				47CECD191F341FE400B2B1B1 /* LaunchScreen.storyboard */,
+				47CECD1C1F341FE400B2B1B1 /* Info.plist */,
+				47CECD0B1F341FE400B2B1B1 /* Supporting Files */,
+			);
+			path = JQRadiusView;
+			sourceTree = "<group>";
+		};
+		47CECD0B1F341FE400B2B1B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD0C1F341FE400B2B1B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47CECD241F341FE400B2B1B1 /* JQRadiusViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD251F341FE400B2B1B1 /* JQRadiusViewTests.m */,
+				47CECD271F341FE400B2B1B1 /* Info.plist */,
+			);
+			path = JQRadiusViewTests;
+			sourceTree = "<group>";
+		};
+		47CECD2F1F341FE400B2B1B1 /* JQRadiusViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD301F341FE400B2B1B1 /* JQRadiusViewUITests.m */,
+				47CECD321F341FE400B2B1B1 /* Info.plist */,
+			);
+			path = JQRadiusViewUITests;
+			sourceTree = "<group>";
+		};
+		47CECD3E1F34201000B2B1B1 /* JQRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				47CECD3F1F34201000B2B1B1 /* JQRadiusView.h */,
+				47CECD401F34201000B2B1B1 /* JQRadiusView.m */,
+			);
+			path = JQRadiusView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CECD071F341FE400B2B1B1 /* JQRadiusView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CECD351F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusView" */;
+			buildPhases = (
+				47CECD041F341FE400B2B1B1 /* Sources */,
+				47CECD051F341FE400B2B1B1 /* Frameworks */,
+				47CECD061F341FE400B2B1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQRadiusView;
+			productName = JQRadiusView;
+			productReference = 47CECD081F341FE400B2B1B1 /* JQRadiusView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47CECD201F341FE400B2B1B1 /* JQRadiusViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CECD381F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusViewTests" */;
+			buildPhases = (
+				47CECD1D1F341FE400B2B1B1 /* Sources */,
+				47CECD1E1F341FE400B2B1B1 /* Frameworks */,
+				47CECD1F1F341FE400B2B1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CECD231F341FE400B2B1B1 /* PBXTargetDependency */,
+			);
+			name = JQRadiusViewTests;
+			productName = JQRadiusViewTests;
+			productReference = 47CECD211F341FE400B2B1B1 /* JQRadiusViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47CECD2B1F341FE400B2B1B1 /* JQRadiusViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CECD3B1F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusViewUITests" */;
+			buildPhases = (
+				47CECD281F341FE400B2B1B1 /* Sources */,
+				47CECD291F341FE400B2B1B1 /* Frameworks */,
+				47CECD2A1F341FE400B2B1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CECD2E1F341FE400B2B1B1 /* PBXTargetDependency */,
+			);
+			name = JQRadiusViewUITests;
+			productName = JQRadiusViewUITests;
+			productReference = 47CECD2C1F341FE400B2B1B1 /* JQRadiusViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CECD001F341FE400B2B1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					47CECD071F341FE400B2B1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+					};
+					47CECD201F341FE400B2B1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47CECD071F341FE400B2B1B1;
+					};
+					47CECD2B1F341FE400B2B1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47CECD071F341FE400B2B1B1;
+					};
+				};
+			};
+			buildConfigurationList = 47CECD031F341FE400B2B1B1 /* Build configuration list for PBXProject "JQRadiusView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47CECCFF1F341FE400B2B1B1;
+			productRefGroup = 47CECD091F341FE400B2B1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CECD071F341FE400B2B1B1 /* JQRadiusView */,
+				47CECD201F341FE400B2B1B1 /* JQRadiusViewTests */,
+				47CECD2B1F341FE400B2B1B1 /* JQRadiusViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CECD061F341FE400B2B1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CECD1B1F341FE400B2B1B1 /* LaunchScreen.storyboard in Resources */,
+				47CECD181F341FE400B2B1B1 /* Assets.xcassets in Resources */,
+				47CECD161F341FE400B2B1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD1F1F341FE400B2B1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD2A1F341FE400B2B1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CECD041F341FE400B2B1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CECD411F34201000B2B1B1 /* JQRadiusView.m in Sources */,
+				47CECD131F341FE400B2B1B1 /* ViewController.m in Sources */,
+				47CECD101F341FE400B2B1B1 /* AppDelegate.m in Sources */,
+				47CECD0D1F341FE400B2B1B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD1D1F341FE400B2B1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CECD261F341FE400B2B1B1 /* JQRadiusViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CECD281F341FE400B2B1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CECD311F341FE400B2B1B1 /* JQRadiusViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47CECD231F341FE400B2B1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CECD071F341FE400B2B1B1 /* JQRadiusView */;
+			targetProxy = 47CECD221F341FE400B2B1B1 /* PBXContainerItemProxy */;
+		};
+		47CECD2E1F341FE400B2B1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CECD071F341FE400B2B1B1 /* JQRadiusView */;
+			targetProxy = 47CECD2D1F341FE400B2B1B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47CECD141F341FE400B2B1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CECD151F341FE400B2B1B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47CECD191F341FE400B2B1B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CECD1A1F341FE400B2B1B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47CECD331F341FE400B2B1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47CECD341F341FE400B2B1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CECD361F341FE400B2B1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47CECD371F341FE400B2B1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47CECD391F341FE400B2B1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQRadiusView.app/JQRadiusView";
+			};
+			name = Debug;
+		};
+		47CECD3A1F341FE400B2B1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQRadiusView.app/JQRadiusView";
+			};
+			name = Release;
+		};
+		47CECD3C1F341FE400B2B1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQRadiusView;
+			};
+			name = Debug;
+		};
+		47CECD3D1F341FE400B2B1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQRadiusViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQRadiusViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQRadiusView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CECD031F341FE400B2B1B1 /* Build configuration list for PBXProject "JQRadiusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CECD331F341FE400B2B1B1 /* Debug */,
+				47CECD341F341FE400B2B1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CECD351F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CECD361F341FE400B2B1B1 /* Debug */,
+				47CECD371F341FE400B2B1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47CECD381F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CECD391F341FE400B2B1B1 /* Debug */,
+				47CECD3A1F341FE400B2B1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47CECD3B1F341FE400B2B1B1 /* Build configuration list for PBXNativeTarget "JQRadiusViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CECD3C1F341FE400B2B1B1 /* Debug */,
+				47CECD3D1F341FE400B2B1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CECD001F341FE400B2B1B1 /* Project object */;
+}
